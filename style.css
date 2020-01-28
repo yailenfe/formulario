@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 420px;
+}
+
+td {
+    padding: 10px;
+}
+
+fieldset {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 420px;
+    margin: 0 auto;
+}
+
+legend {
+    text-align: right;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    color: #999;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    padding: 5px;
+    font-size: 18px;
+    border: ipx solid#ccc;
+    width: 300px;
+}

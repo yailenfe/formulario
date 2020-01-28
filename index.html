@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>datos personales</legend>
+                    <table>
+                        <tr>
+                            <td align="rigth"> nombre:</td>
+                            <td><input type="text" name="nombre" required autofocus></td>
+                        </tr>
+                        <tr>
+                            <td align="right">email</td>
+                            <td><input type="email" name="correo" id="" required></td>
+                        </tr>
+                        <tr>
+                            <td align="right">movil</td>
+                            <td><input type="text" name="movil" required pattern="[\d]{3}\s[\d]{3}\s[\d]{4}$" title="debes Escribir un numero telefonico valido. ej:123 1223 8976"></td>
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top">mensaje</td>
+                            <td><textarea name="mensaje" id="" cols="30" rows="4" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="image" src="img/btn_enviar.png" alt="enviar datos"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+
+        </section>
+
+    </main>
+</body>
+
+</html>
